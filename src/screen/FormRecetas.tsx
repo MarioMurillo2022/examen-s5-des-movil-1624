@@ -17,8 +17,6 @@ const FormRecetas = () => {
     const [errorIngredientes, setErrorIngredientes] = useState<string>('');
 
     useEffect(() => {
-        // Aquí puedes realizar cualquier efecto secundario relacionado con la creación o modificación de recetas
-        // Por ejemplo, puedes actualizar el estado de las recetas en AsyncStorage o en tu base de datos
     }, [recetas]);
 
     const agregarReceta = () => {
